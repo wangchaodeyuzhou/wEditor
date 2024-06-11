@@ -70,5 +70,6 @@
     "nanoid": "^3.2.0",
     "slate": "^0.72.0",
     "snabbdom": "^3.1.0"
-  }
+  },
+  "gitHead": "d9646dcafdc559df3989cbc2c786855d54c067ae"
 }
