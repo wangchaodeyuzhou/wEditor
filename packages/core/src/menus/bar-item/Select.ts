@@ -42,6 +42,7 @@ class BarItemSelect implements IBarItem {
     if (width) {
       $button.css('width', `${width}px`)
     }
+    console.log("@wangchaodeyuzhou/core BarItemSelect -> constructor -> iconSvg", iconSvg)
     if (iconSvg) {
       const $svg = $(iconSvg)
       clearSvgStyle($svg) // 清理 svg 样式（扩展的菜单，svg 是不可控的，所以要清理一下）
