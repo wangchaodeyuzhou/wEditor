@@ -4,27 +4,27 @@
  */
 
 // basic-modules
-import '@wangeditor/basic-modules/dist/css/style.css'
-import basicModules from '@wangeditor/basic-modules'
+import '@wangchaodeyuzhou/basic-modules/dist/css/style.css'
+import basicModules from '@wangchaodeyuzhou/basic-modules'
 
-import '@wangeditor/list-module/dist/css/style.css'
-import wangEditorListModule from '@wangeditor/list-module'
+import '@wangchaodeyuzhou/list-module/dist/css/style.css'
+import wangEditorListModule from '@wangchaodeyuzhou/list-module'
 
 // table-module
-import '@wangeditor/table-module/dist/css/style.css'
-import wangEditorTableModule from '@wangeditor/table-module'
+import '@wangchaodeyuzhou/table-module/dist/css/style.css'
+import wangEditorTableModule from '@wangchaodeyuzhou/table-module'
 
 // video-module
-import '@wangeditor/video-module/dist/css/style.css'
-import wangEditorVideoModule from '@wangeditor/video-module'
+import '@wangchaodeyuzhou/video-module/dist/css/style.css'
+import wangEditorVideoModule from '@wangchaodeyuzhou/video-module'
 
 // upload-image-module
-import '@wangeditor/upload-image-module/dist/css/style.css'
-import wangEditorUploadImageModule from '@wangeditor/upload-image-module'
+import '@wangchaodeyuzhou/upload-image-module/dist/css/style.css'
+import wangEditorUploadImageModule from '@wangchaodeyuzhou/upload-image-module'
 
 // code-highlight
-import '@wangeditor/code-highlight/dist/css/style.css'
-import { wangEditorCodeHighlightModule } from '@wangeditor/code-highlight'
+import '@wangchaodeyuzhou/code-highlight/dist/css/style.css'
+import { wangEditorCodeHighlightModule } from '@wangchaodeyuzhou/code-highlight'
 
 import registerModule from './register'
 

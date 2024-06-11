@@ -4,8 +4,8 @@
  */
 
 import Uppy, { UppyFile } from '@uppy/core'
-import { IDomEditor, createUploader } from '@wangeditor/core'
-import { insertImageNode } from '@wangeditor/basic-modules'
+import { IDomEditor, createUploader } from '@wangchaodeyuzhou/core'
+import { insertImageNode } from '@wangchaodeyuzhou/basic-modules'
 import { IUploadConfigForImage } from './menu/config'
 
 // 存储 editor uppy 的关系 - 缓存 uppy ，不重复创建

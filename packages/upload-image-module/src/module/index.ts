@@ -3,7 +3,7 @@
  * @author wangfupeng
  */
 
-import { IModuleConf } from '@wangeditor/core'
+import { IModuleConf } from '@wangchaodeyuzhou/core'
 import withUploadImage from './plugin'
 import { uploadImageMenuConf } from './menu/index'
 

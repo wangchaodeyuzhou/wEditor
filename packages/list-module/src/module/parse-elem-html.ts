@@ -6,7 +6,7 @@
 import { Dom7Array } from 'dom7'
 import { Descendant, Text } from 'slate'
 import $, { DOMElement, getTagName } from '../utils/dom'
-import { IDomEditor } from '@wangeditor/core'
+import { IDomEditor } from '@wangchaodeyuzhou/core'
 import { ListItemElement } from './custom-types'
 
 /**
