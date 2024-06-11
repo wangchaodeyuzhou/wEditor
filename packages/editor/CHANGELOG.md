@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.1](https://github.com/wangchaodeyuzhou/wEditor/compare/@wangchaodeyuzhou/editor@5.2.0...@wangchaodeyuzhou/editor@5.2.1) (2024-06-11)
+
+**Note:** Version bump only for package @wangchaodeyuzhou/editor
+
+
+
+
+
 # 5.2.0 (2024-06-11)
 
 

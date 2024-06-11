@@ -1,6 +1,6 @@
 {
   "name": "@wangchaodeyuzhou/editor",
-  "version": "5.2.0",
+  "version": "5.2.1",
   "description": "Web rich text editor, Web 富文本编辑器",
   "keywords": [
     "wangeditor",
@@ -53,7 +53,7 @@
     "@uppy/xhr-upload": "^2.0.3",
     "@wangchaodeyuzhou/basic-modules": "^1.2.0",
     "@wangchaodeyuzhou/code-highlight": "^1.1.0",
-    "@wangchaodeyuzhou/core": "^1.2.0",
+    "@wangchaodeyuzhou/core": "^1.2.1",
     "@wangchaodeyuzhou/list-module": "^1.1.0",
     "@wangchaodeyuzhou/table-module": "^1.2.0",
     "@wangchaodeyuzhou/upload-image-module": "^1.1.0",

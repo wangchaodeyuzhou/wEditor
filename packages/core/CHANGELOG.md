@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1](https://github.com/wangchaodeyuzhou/wEditor/compare/@wangchaodeyuzhou/core@1.2.0...@wangchaodeyuzhou/core@1.2.1) (2024-06-11)
+
+
+### Bug Fixes
+
+* 更新 core select ([96c1a4e](https://github.com/wangchaodeyuzhou/wEditor/commit/96c1a4e72d1a1c0a5a88a7e0141b5ea3ffca3a15))
+
+
+
+
+
 # 1.2.0 (2024-06-11)
 
 
