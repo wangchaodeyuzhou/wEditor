@@ -42,15 +42,6 @@ class BarItemSelect implements IBarItem {
     if (width) {
       $button.css('width', `${width}px`)
     }
-    console.log("@wangchaodeyuzhou/core BarItemSelect -> constructor -> iconSvg", iconSvg)
-    if (iconSvg) {
-      const $svg = $(iconSvg)
-      clearSvgStyle($svg) // 清理 svg 样式（扩展的菜单，svg 是不可控的，所以要清理一下）
-      $button.append($svg)
-    } else {
-      // 无 icon 则显示 title
-      $button.text(title)
-    }
     $button.attr('data-menu-key', key) // menu key
     addTooltip($button, iconSvg, title, hotkey, inGroup) // 设置 tooltip
     this.$elem.append($button)
@@ -135,7 +126,17 @@ class BarItemSelect implements IBarItem {
     const $downArrow = gen$downArrow() // 向下的箭头图标
     $button.empty()
     $button.text(optText)
+    this.setIconSvg(menu.iconSvg);
     $button.append($downArrow)
+  }
+
+  private setIconSvg(iconSvg: string | undefined) {
+    console.log("@wangchaodeyuzhou/core begin BarItemSelect -> setIconSvg -> iconSvg", iconSvg)
+    if (!iconSvg) return;
+    const $button = this.$button;
+    const $svg = $(iconSvg)
+    $button.append($svg);
+    console.log("@wangchaodeyuzhou/core end BarItemSelect -> setIconSvg -> iconSvg", iconSvg)
   }
 
   private setDisabled() {
