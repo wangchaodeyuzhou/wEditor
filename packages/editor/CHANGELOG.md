@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.2](https://github.com/wangchaodeyuzhou/wEditor/compare/@wangchaodeyuzhou/editor@5.2.1...@wangchaodeyuzhou/editor@5.2.2) (2024-06-11)
+
+
+### Bug Fixes
+
+* 更新 core select dist ([5dac2ea](https://github.com/wangchaodeyuzhou/wEditor/commit/5dac2eafd93ec55cc15c82265373e97c425f9a29))
+
+
+
+
+
 ## [5.2.1](https://github.com/wangchaodeyuzhou/wEditor/compare/@wangchaodeyuzhou/editor@5.2.0...@wangchaodeyuzhou/editor@5.2.1) (2024-06-11)
 
 **Note:** Version bump only for package @wangchaodeyuzhou/editor
