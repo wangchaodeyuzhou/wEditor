@@ -99,11 +99,11 @@ function createUploader(config: IUploadConfig): Uppy {
   uppy.on('restriction-failed', (file, error) => {
     try {
       // 有用户传入的第三方代码，得用 try catch 包裹
-      onError(file, error)
+      onError(file!, error)
     } catch (err) {
       console.error('wangEditor upload file - onError error', err)
     }
-    uppy.removeFile(file.id) // 清空文件
+    uppy.removeFile(file!.id) // 清空文件
   })
 
   // 返回实例

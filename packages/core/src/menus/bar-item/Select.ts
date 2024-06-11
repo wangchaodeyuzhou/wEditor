@@ -7,7 +7,7 @@ import $, { Dom7Array } from '../../utils/dom'
 import { IBarItem, getEditorInstance } from './index'
 import { IOption, ISelectMenu } from '../interface'
 import SelectList from '../panel-and-modal/SelectList'
-import { gen$downArrow } from '../helpers/helpers'
+import {clearSvgStyle, gen$downArrow} from '../helpers/helpers'
 import { promiseResolveThen } from '../../utils/util'
 import { addTooltip } from './tooltip'
 
@@ -41,6 +41,14 @@ class BarItemSelect implements IBarItem {
     const $button = this.$button
     if (width) {
       $button.css('width', `${width}px`)
+    }
+    if (iconSvg) {
+      const $svg = $(iconSvg)
+      clearSvgStyle($svg) // 清理 svg 样式（扩展的菜单，svg 是不可控的，所以要清理一下）
+      $button.append($svg)
+    } else {
+      // 无 icon 则显示 title
+      $button.text(title)
     }
     $button.attr('data-menu-key', key) // menu key
     addTooltip($button, iconSvg, title, hotkey, inGroup) // 设置 tooltip

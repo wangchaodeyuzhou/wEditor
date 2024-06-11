@@ -1,5 +1,5 @@
 {
-  "name": "@wangeditor/editor",
+  "name": "@wangchaodeyuzhou/editor",
   "version": "5.1.23",
   "description": "Web rich text editor, Web 富文本编辑器",
   "keywords": [
@@ -33,7 +33,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wangeditor-team/wangEditor.git"
+    "url": "git+https://github.com/wangchaodeyuzhou/wEditor.git"
   },
   "scripts": {
     "test": "jest",

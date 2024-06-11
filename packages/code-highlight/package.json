@@ -1,5 +1,5 @@
 {
-  "name": "@wangeditor/code-highlight",
+  "name": "@wangchaodeyuzhou/code-highlight",
   "version": "1.0.3",
   "description": "wangEditor code-highlight module",
   "author": "wangfupeng1988 <wangfupeng1988@163.com>",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wangeditor-team/wangEditor.git"
+    "url": "git+https://github.com/wangchaodeyuzhou/wEditor.git"
   },
   "scripts": {
     "test": "jest",

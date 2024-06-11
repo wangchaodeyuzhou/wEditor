@@ -1,5 +1,5 @@
 {
-  "name": "@wangeditor/list-module",
+  "name": "@wangchaodeyuzhou/list-module",
   "version": "1.0.5",
   "description": "wangEditor list module",
   "author": "wangfupeng1988 <wangfupeng1988@163.com>",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wangeditor-team/wangEditor.git"
+    "url": "git+https://github.com/wangchaodeyuzhou/wEditor.git"
   },
   "scripts": {
     "test": "jest",
