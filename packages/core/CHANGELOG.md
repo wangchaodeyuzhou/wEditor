@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.3](https://github.com/wangchaodeyuzhou/wEditor/compare/@wangchaodeyuzhou/core@1.2.2...@wangchaodeyuzhou/core@1.2.3) (2024-06-21)
+
+
+### Bug Fixes
+
+* 移除无用代码和日志 ([608e3c1](https://github.com/wangchaodeyuzhou/wEditor/commit/608e3c1456620f0a80da4c9dc806b0469e326757))
+
+
+
+
+
 ## [1.2.2](https://github.com/wangchaodeyuzhou/wEditor/compare/@wangchaodeyuzhou/core@1.2.1...@wangchaodeyuzhou/core@1.2.2) (2024-06-11)
 
 
