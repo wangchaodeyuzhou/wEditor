@@ -7,7 +7,7 @@ import $, { Dom7Array } from '../../utils/dom'
 import { IBarItem, getEditorInstance } from './index'
 import { IOption, ISelectMenu } from '../interface'
 import SelectList from '../panel-and-modal/SelectList'
-import {clearSvgStyle, gen$downArrow} from '../helpers/helpers'
+import { gen$downArrow} from '../helpers/helpers'
 import { promiseResolveThen } from '../../utils/util'
 import { addTooltip } from './tooltip'
 
@@ -131,12 +131,10 @@ class BarItemSelect implements IBarItem {
   }
 
   private setIconSvg(iconSvg: string | undefined) {
-    console.log("@wangchaodeyuzhou/core begin BarItemSelect -> setIconSvg -> iconSvg", iconSvg)
     if (!iconSvg) return;
     const $button = this.$button;
     const $svg = $(iconSvg)
     $button.append($svg);
-    console.log("@wangchaodeyuzhou/core end BarItemSelect -> setIconSvg -> iconSvg", iconSvg)
   }
 
   private setDisabled() {
